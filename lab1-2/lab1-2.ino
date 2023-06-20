@@ -1,10 +1,10 @@
 void setup() {
- pinMode(0 , OUTPUT);//red
- pinMode(4 , OUTPUT);//green
- pinMode(5 , OUTPUT);//blue
- analogWrite(0 , 255);//red
- analogWrite(4 , 255);//green
- analogWrite(5 , 255);//blue
+ pinMode(3 , OUTPUT);//red
+ pinMode(5 , OUTPUT);//green
+ pinMode(6 , OUTPUT);//blue
+ analogWrite(3 , 0);//red
+ analogWrite(5 , 0);//green
+ analogWrite(6 , 0);//blue
 
 }
 
